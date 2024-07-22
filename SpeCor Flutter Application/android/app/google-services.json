@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "207858705507",
+    "project_id": "specor-5e486",
+    "storage_bucket": "specor-5e486.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207858705507:android:d85c8012709765e93fc456",
+        "android_client_info": {
+          "package_name": "com.example.specor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCim7ijA9eyPN7jfabPC5xUnV7M7HZBdxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "abdelrhamanfakhry/gp-deployment",
+  "id_no": 56324415,
+  "title": "GP Deployment",
+  "code_file": "gp-deployment.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "abdelrhamanfakhry/decoding",
+    "mohamedlasheeen/extlibs",
+    "abdelrhamanfakhry/feature-extraction",
+    "abdelrhamanfakhry/gpt2sa",
+    "mohamedlasheeen/testdata",
+    "abdelrhamanfakhry/tokenizer",
+    "abdelrhamanfakhry/transcribe",
+    "abdelrhamanfakhry/whispersa"
+  ],
+  "kernel_sources": [
+    "abdelrhamanfakhry/speech-pro1"
+  ],
+  "competition_sources": [],
+  "model_sources": []
+}

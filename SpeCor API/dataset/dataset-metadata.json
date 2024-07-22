@@ -1,0 +1,39 @@
+{
+  "id": "mohamedlasheeen/testdata",
+  "id_no": 4992848,
+  "datasetSlugNullable": "testdata",
+  "ownerUserNullable": "mohamedlasheeen",
+  "usabilityRatingNullable": 0.375,
+  "titleNullable": "testdata",
+  "subtitleNullable": "",
+  "descriptionNullable": "",
+  "datasetId": 4992848,
+  "datasetSlug": "testdata",
+  "hasDatasetSlug": true,
+  "ownerUser": "mohamedlasheeen",
+  "hasOwnerUser": true,
+  "usabilityRating": 0.375,
+  "hasUsabilityRating": true,
+  "totalViews": 4,
+  "totalVotes": 0,
+  "totalDownloads": 0,
+  "title": "testdata",
+  "hasTitle": true,
+  "subtitle": "",
+  "hasSubtitle": true,
+  "description": "",
+  "hasDescription": true,
+  "isPrivate": true,
+  "keywords": [
+    "business"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "CC0-1.0",
+      "name": "CC0-1.0",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}

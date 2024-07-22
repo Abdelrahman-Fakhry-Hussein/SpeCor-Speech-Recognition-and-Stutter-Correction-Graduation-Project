@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio to Text</title>
+    <style>
+        /* Light Theme */
+        body.light-theme {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        /* Dark Theme */
+        body.dark-theme {
+            background-color: #1e1e1e;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #result {
+            margin-top: 20px;
+        }
+
+        .theme-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            background-color: #007bff;
+            color: #ffffff;
+            font-size: 16px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .theme-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <script>
+        async function submitUrl() {
+            const urlInput = document.getElementById('audioUrl').value;
+
+            try {
+                const response = await fetch('http://127.0.0.1:8000/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ url: urlInput })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+
+                const data = await response.json();
+
+                document.getElementById("result").innerHTML = `
+                    <p>Transcription File: <a href="http://127.0.0.1:8000/download?file_path=${encodeURIComponent(data.transcription_file)}" download>Download</a></p>
+                    <p>Speech File: <a href="http://127.0.0.1:8000/download?file_path=${encodeURIComponent(data.speech_file)}" download>Download</a></p>
+                `;
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById("result").innerText = "Error occurred. Please check console.";
+            }
+        }
+
+        function toggleTheme() {
+            const body = document.body;
+            const currentTheme = body.classList.contains('dark-theme') ? 'dark' : 'light';
+            body.classList.toggle('dark-theme');
+
+            // Save theme preference in localStorage
+            localStorage.setItem('theme', currentTheme === 'dark' ? 'light' : 'dark');
+        }
+
+        // Load theme preference from localStorage
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            document.body.classList.add(savedTheme + '-theme');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Audio File URL</h1>
+        <input type="text" id="audioUrl" placeholder="Enter URL here" style="width: 100%; padding: 10px; margin-bottom: 10px;">
+        <button class="theme-btn" onclick="submitUrl()">Submit</button>
+        <div id="result"></div>
+        <button class="theme-btn" onclick="toggleTheme()">Toggle Theme</button>
+    </div>
+</body>
+</html>
