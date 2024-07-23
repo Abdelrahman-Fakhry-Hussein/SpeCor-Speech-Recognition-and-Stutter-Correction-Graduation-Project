@@ -25,7 +25,10 @@ This app allows users to chat with others and convert voice chats (with or witho
 
 ## Demo Video
 
-https://github.com/Abdelrahman-Fakhry-Hussein/SpeCor-Speech-Recognition-and-Stutter-Correction-Graduation-Project/blob/bc5a5604067b3446e4d98b5a2ec2339e33460248/SpeCor%20Flutter%20Application/Demo_vedio.mp4
+<video width="800" height="450" controls>
+  <source src="https://github.com/Abdelrahman-Fakhry-Hussein/SpeCor-Speech-Recognition-and-Stutter-Correction-Graduation-Project/blob/bc5a5604067b3446e4d98b5a2ec2339e33460248/SpeCor%20Flutter%20Application/Demo_vedio.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Benefits
 
