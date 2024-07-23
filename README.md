@@ -25,7 +25,10 @@ This app allows users to chat with others and convert voice chats (with or witho
 
 ## Demo Video
 
-https://github.com/user-attachments/assets/f7c39d91-a939-4dd7-a2a9-322e12ae9a67
+<video width="700" height="400" controls>
+  <source src="https://github.com/user-attachments/assets/f7c39d91-a939-4dd7-a2a9-322e12ae9a67" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Benefits
 
