@@ -19,19 +19,20 @@ Automatic Speech Recognition (ASR) technology has significantly advanced, yet it
 
 This app allows users to chat with others and convert voice chats (with or without stuttering) to text and vice versa. 
 
-
 ## Model Architecture
 
-<img src="https://github.com/Abdelrahman-Fakhry-Hussein/SpeCor-Speech-Recognition-and-Stutter-Correction-Graduation-Project/blob/fffa24ad440ceda635c6f3605c963edf8ec13f13/SpeCor%20Model%20%26%20Inference%20%26%20Feature%20Extraction%20%26%20Preprocessing/Picture1.png" alt="SpeCor Model Architecture" width="600" height="400">
+<img src="https://github.com/Abdelrahman-Fakhry-Hussein/SpeCor-Speech-Recognition-and-Stutter-Correction-Graduation-Project/blob/fffa24ad440ceda635c6f3605c963edf8ec13f13/SpeCor%20Model%20%26%20Inference%20%26%20Feature%20Extraction%20%26%20Preprocessing/Picture1.png" alt="SpeCor Model Architecture" width="700" height="500">
 
 ## Demo Video
 
-[Watch the SpeCor Demo](path/to/your/demo_video.mp4)
+<video width="700" height="400" controls>
+  <source src="https://github.com/user-attachments/assets/f7c39d91-a939-4dd7-a2a9-322e12ae9a67" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Benefits
 
 This innovation not only enhances the user experience for individuals with speech impediments but also paves the way for further advancements in assistive technologies. By addressing the unique challenges of speech disorders, SpeCor fosters a more inclusive digital future where everyone can communicate effortlessly using voice-based technologies.
-
 
 ## Future Work
 
