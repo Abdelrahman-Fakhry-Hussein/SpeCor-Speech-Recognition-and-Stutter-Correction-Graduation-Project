@@ -21,7 +21,7 @@ This app allows users to chat with others and convert voice chats (with or witho
 
 ## Model Architecture
 
-<img src="https://github.com/Abdelrahman-Fakhry-Hussein/SpeCor-Speech-Recognition-and-Stutter-Correction-Graduation-Project/blob/fffa24ad440ceda635c6f3605c963edf8ec13f13/SpeCor%20Model%20%26%20Inference%20%26%20Feature%20Extraction%20%26%20Preprocessing/Picture1.png" alt="SpeCor Model Architecture" width="700" height="500">
+<img src="https://github.com/Abdelrahman-Fakhry-Hussein/SpeCor-Speech-Recognition-and-Stutter-Correction-Graduation-Project/blob/fffa24ad440ceda635c6f3605c963edf8ec13f13/SpeCor%20Model%20%26%20Inference%20%26%20Feature%20Extraction%20%26%20Preprocessing/Picture1.png" alt="SpeCor Model Architecture" width="700" height="500"></img>
 
 ## Demo Video
 
