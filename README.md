@@ -14,3 +14,7 @@ Automatic Speech Recognition (ASR) technology has significantly advanced, yet it
 
 This innovation not only enhances the user experience for individuals with speech impediments but also paves the way for further advancements in assistive technologies. By addressing the unique challenges of speech disorders, SpeCor fosters a more inclusive digital future where everyone can communicate effortlessly using voice-based technologies.
 
+
+## Model Architecture
+
+![SpeCor Model Architecture](SpeCor Model & Inference & Feature Extraction & Preprocessing/Picture1.png)
