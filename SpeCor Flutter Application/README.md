@@ -1,4 +1,4 @@
-# specor
+# SpeCor
 
 A new Flutter project.
 
